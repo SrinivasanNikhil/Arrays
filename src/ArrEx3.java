@@ -9,6 +9,14 @@ public class ArrEx3 {
 		int[] ages = {90,92};
 		double[] gpas = {};
 		
+		Person[] persons = new Person[2];
+		
+		for(int i = 0; i < names.length; i++)
+		{
+			Person aPerson = new Person(names[i],ages[i],gpas[i]);
+			persons[i] = aPerson;
+		}
+		
 		
 		
 	}
