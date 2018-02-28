@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class ArrEx2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		double[] gradeRange = {93.00, 90.00, 87.00, 83.00, 80.00, 77.00, 73.00, 70.00, 60.00, 0.00}; 
 		String[] grade = {"A","A-","B+","B","B-","C+","C","C-","D","F"};

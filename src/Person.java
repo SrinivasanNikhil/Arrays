@@ -7,7 +7,6 @@ public class Person {
 	
 	
 	public Person(String name, int age, double gpa) {
-		super();
 		this.name = name;
 		this.age = age;
 		this.gpa = gpa;
@@ -62,6 +61,10 @@ public class Person {
 	}
 	
 	
+	public void printInfo()
+	{
+		System.out.println(name + " " + age + " " + gpa);
+	}
 	
 	
 }
