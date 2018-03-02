@@ -7,9 +7,9 @@ public class ArrEx5 {
 		
 
 		
-		int[] numbers = {1,2,3,4,5,6,7,8,9,10,1,2,3,4,5};
-		int[] uniqueNumbers = new int[10];
-		int[] frequency = new int[10];
+		int[] numbers = {1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,11,12,13,13,13,14};
+		int[] uniqueNumbers = new int[20];
+		int[] frequency = new int[20];
 		
 		uniqueNumbers[0] = numbers[0];
 		
@@ -36,7 +36,9 @@ public class ArrEx5 {
 			
 		}
 		
-		for(int i = 0; i< uniqueNumbers.length; i++)
+		
+		//print out unique numbers and frequency
+		for(int i = 0; i< uniqueNumbers.length && uniqueNumbers[i] != 0; i++)
 		{
 			System.out.println(uniqueNumbers[i] + " " + frequency[i]);
 		}
