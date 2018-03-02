@@ -12,9 +12,12 @@ public class ArrEx4 {
 		persons = new Person1[10];
 		readData();
 		printData();
-		
+		Scanner scan = new Scanner(System.in);
 		System.out.println("Which person would you like more information about? ");
-		int id = reader.nextInt();
+		int id = scan.nextInt();
+		
+		printData(id);
+		
 
 	}
 
@@ -58,5 +61,19 @@ public class ArrEx4 {
 			persons[i].printInfo();
 		}
 	}
-
+	
+	public void printData(int id)
+	{
+		for(int i = 0; i< persons.length; i++)
+		{
+			if(persons[i].getId() == id)
+			{
+				persons[i].printInfo();
+			}
+		}
+	}
+	
+	
+	
 }
+

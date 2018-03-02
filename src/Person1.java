@@ -98,7 +98,7 @@ public class Person1 {
 	
 	public void printInfo()
 	{
-		System.out.println(name + " " + hours + " " + payRate);
+		System.out.println(id + " " + name + " " + hours + " " + payRate);
 	}
 	
 }
